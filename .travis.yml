@@ -23,9 +23,9 @@ matrix:
   - name: "Mlucas (ARM)"
     # arch: arm64
     arch: arm64-graviton2
-    dist: focal
+    dist: xenial
     group: edge
-    virt: vm
+    virt: lxd
 
 before_script:
     - sudo apt-get -yqq update
