@@ -23,6 +23,8 @@ matrix:
   - name: "Mlucas (ARM)"
     # arch: arm64
     arch: arm64-graviton2
+    dist: focal
+    group: edge
     virt: vm
 
 before_script:
